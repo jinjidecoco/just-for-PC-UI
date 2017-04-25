@@ -1,0 +1,40 @@
+{
+  "name": "style",
+  "version": "1.0.0",
+  "description": "pc ui common style ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjidecoco/just-for-PC-UI.git"
+  },
+  "keywords": [
+    "style",
+    "Pc",
+    "ui"
+  ],
+  "author": "coco wang ke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjidecoco/just-for-PC-UI/issues"
+  },
+  "homepage": "https://github.com/jinjidecoco/just-for-PC-UI#readme",
+  "dependencies": {
+    "connect": "^3.6.1",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^2.0.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "less": "^2.7.2"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  }
+}
