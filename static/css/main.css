@@ -512,6 +512,25 @@ input[type="checkbox"] {
   vertical-align: middle;
   background: #fff;
 }
+.pagination ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagination ul li {
+  display: inline-block;
+}
+.pagination ul li a {
+  position: relative;
+  float: left;
+  padding: 5px 10px;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid #c5cae9;
+}
+.pagination ul li a:hover {
+  background: #42a5f5;
+  border: 1px solid #42a5f5;
+}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -686,4 +705,62 @@ section {
 }
 h1 {
   margin: 10px;
+}
+.grid .columns-sm {
+  width: 970px;
+  margin-right: -10px;
+}
+.grid .columns-sm .column li {
+  margin-left: 10px;
+  float: left;
+  width: 111.25px;
+  min-height: 40px;
+  background: #ff4081;
+}
+.grid .columns-md {
+  width: 970px;
+  margin-right: -10px;
+}
+.grid .columns-md .column li {
+  margin-left: 10px;
+  float: left;
+  width: 151.66666667px;
+  min-height: 40px;
+  background: #ff4081;
+}
+.grid .column {
+  margin: 10px auto;
+}
+.grid .columns-lg {
+  width: 970px;
+  margin-right: -10px;
+}
+.grid .columns-lg .column li {
+  margin-left: 10px;
+  float: left;
+  width: 232.5px;
+  min-height: 40px;
+  background: #ff4081;
+}
+.grid .columns-vg {
+  width: 970px;
+  margin-right: -10px;
+}
+.grid .columns-vg .column li {
+  margin-left: 10px;
+  float: left;
+  width: 313.33333333px;
+  min-height: 40px;
+  background: #ff4081;
+}
+.grid .columns-hf {
+  width: 970px;
+  margin-right: -10px;
+}
+.grid .columns-hf .column li {
+  margin-left: 10px;
+  float: left;
+  width: 475px;
+  min-height: 40px;
+  background: #ff4081;
 }
