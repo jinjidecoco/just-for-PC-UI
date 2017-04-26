@@ -1,0 +1,12 @@
+.columns(@columns;@width;@sp; @h){
+	   width: @width + @sp;
+	   margin-right: -@sp;
+	  	   .column li{
+		    margin-left: @sp;
+		    float: left;
+		    width:(@width - ( @columns - 1 ) * @sp )/ @columns;
+		    min-height:@h;
+		    background: #ff4081;
+		
+	    }
+}
